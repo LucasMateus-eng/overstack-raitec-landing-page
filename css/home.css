@@ -24,7 +24,7 @@ body {
 }
 
 /* Header ======== */
-header .contact {
+header .top-header {
     width: 100%;
     height: 4.25rem;
     padding: 1.3rem 0;
@@ -36,7 +36,7 @@ header .contact {
     justify-content: space-between;
 }
 
-header .main-header {
+header .bottom-header {
     margin-top: 2.3rem;
     margin-bottom: 1.8rem;
     height: 5rem;
@@ -46,11 +46,11 @@ header .main-header {
     justify-content: space-between;
 }
 
-header .contact h1, .main-header img {
+header .top-header h1, .bottom-header img {
     margin-left: 10%;
 }
 
-header .contact a, .main-header nav {
+header .top-header a, .bottom-header nav {
     margin-right: 10%;
 }
 
@@ -70,7 +70,6 @@ a {
     font-weight: 700;
 
     padding: 1.2rem 4.2rem;
-    margin-top: 2rem;
 
     cursor: pointer;
 }
@@ -87,6 +86,7 @@ a {
 .button.content {
     width: 30%;
     height: 3.13rem;
+    margin-top: 2rem;
 
     display: flex;
     align-items: center;
@@ -101,6 +101,8 @@ a {
 }
 
 button {
+    margin-top: 2rem;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,12 +128,6 @@ h2 {
     margin-bottom: 3rem;
 }
 
-h3 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--gold);
-}
-
 p {
     font-size: 1.5rem;
     font-weight: normal;
@@ -143,7 +139,7 @@ p {
 .first-content {
     width: 100%;
     height: 50rem;
-    padding: 3rem 10%;
+    padding: 3.2rem 10%;
     margin-bottom: 3rem;
     
     background-image: url(../images/fundo-eletrical.svg);
@@ -152,7 +148,7 @@ p {
 }
 
 .first-content h2 {
-    width: 34.4rem;
+    width: 34.5rem;
     margin-bottom: .5rem;
 
     font-size: 5rem;
